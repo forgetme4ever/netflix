@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-box">
+          <div class="header-logo">
+            <h1>Netflix</h1>
+            <p>online movies</p>
+          </div>
+          <div class="header-controls">
+            <a href="#">Sign in</a>
+          </div>
+          <div class="header-controls--mobile">
+            <img src="img/menu.svg" alt="menu" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="search">
+        <div class="container">
+          <div class="search-box">
+            <input type="text" placeholder="What to watch today?" />
+            <button>
+              <img src="img/search.svg" alt="search" />
+              <span>Search</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="content">
+        <div class="container">
+          <div class="content-box">
+            <div class="content-movie">
+              <div class="content-movie__img">
+                <img
+                  src="img/Deadpool_&_Wolverine_poster.jpg"
+                  alt="Deadpool&wolverine"
+                />
+              </div>
+              <div class="content-movie__info">
+                <div class="content-movie__info__content">
+                  <div class="content-movie__info__title">
+                    <h1>Deadpool & Wolverine</h1>
+                    <p>2024 - R - 2h 8m</p>
+                  </div>
+                  <p class="content-movie__info__description">
+                    Action, comedy, superheroes
+                  </p>
+                  <p class="content-movie__info__rating">7.6</p>
+                  <p class="content-movie__info__text">
+                    Deadpool is offered a place in the Marvel Cinematic Universe
+                    by the Time Variance Authority, but instead recruits a
+                    variant of Wolverine to save his universe from extinction.
+                  </p>
+                </div>
+                <div class="content-movie__info__controls">
+                  <button>Watch</button>
+                </div>
+              </div>
+            </div>
+            <div class="content-sidebar">
+              <div class="content-sidebar__info">
+                <h4 class="content-sidebar__info--title">Movies and shows</h4>
+                <div class="content-sidebar__info__wrapper">
+                  <div class="content-sidebar__info__item">
+                    <h5>TOP-250</h5>
+                    <p>Best ranking movies and shows</p>
+                  </div>
+                  <div class="content-sidebar__info__item">
+                    <h5>Best comedies</h5>
+                    <p>Best comedies to watch this evening</p>
+                  </div>
+                  <div class="content-sidebar__info__item">
+                    <h5>Thrillers</h5>
+                    <p>
+                      Experience the chills and thrills of 2024's most exciting
+                      thrillers and horror movies
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="content-sidebar__footer">
+                <p>@ Netflix, 2024</p>
+                <a href="#">Conditions of use</a>
+                <a href="#">Privacy policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
